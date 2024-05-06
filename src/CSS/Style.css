@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #AECDC0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+}
+
+#header_element {
+    margin-right: 4rem;
+}
+
+#parallax_home {
+}
+
+#background_container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/home_background.png);
+    background-position: left center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12vw;
+    margin-top: -12vw;
+}
+
+.movableBackground {
+    position: absolute;
+    right: 40vw;
+    width: 70vw;
+    height: 112vh;
+    background-image: url(../assets/guiloere_backround.png);
+    background-position: left center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
